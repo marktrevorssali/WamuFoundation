@@ -1,0 +1,482 @@
+*{
+    box-sizing: border-box;
+    font-family: Montserrat;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+}
+
+/* NAV BAR */
+.logo a{
+    text-decoration: none;
+    padding-left: 10px;
+
+}
+
+.wamu-logo{
+    width: 200px;
+    height: auto;
+    margin-top: 0.5em;
+}
+
+
+ul{
+    list-style: none;
+    display: flex;
+    align-items: right;
+}
+
+ul li{
+    font-size: 15px;
+}
+
+li{
+    all: unset;
+    border-radius: 5px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin:1rem;
+    padding: 0.5rem;
+    transition: 1s;
+    display: block;
+}
+
+li:hover{
+   cursor: pointer;
+   scale: 1.05; 
+   transition: 1s;
+   color: #FBB03B;
+   border-bottom: #FBB03B solid 1px ;
+}
+
+.nav-bar{
+    top: 0;
+    display: flex;
+    position: absolute;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    z-index: 10000;
+    box-sizing: border-box;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline
+}
+
+.nav-links ul li a{
+    all: unset;
+}
+
+.nav-links ul li .active{
+    color: #FBB03B;
+}
+
+.toggle-button{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+
+}
+
+.toggle-button span{
+    height: 3px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+/* pre hero */
+.pre-hero{
+    margin-top: 0;
+    background-image: url(images/support.jpg);
+    background-size: cover;
+    background-position: right;
+    padding: 150px;
+
+}
+
+.pre-hero-text{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.374);
+    padding: 30px;
+    border-radius: 10px;
+    align-items: left;
+    transition: 0.5s;
+}
+
+.pre-hero-text:hover{
+    box-shadow: #32325d40 0px 6px 12px -2px, #0000004d 0px 3px 7px -3px;
+    scale: 1.02;
+    transition: 1s;
+    
+}
+
+.support-text{
+    color: white;
+    font-size: 40px;
+}
+
+.btn-1{
+    all: unset;
+    margin-top: 2em;
+    color: white;
+    background-color: #FBB03B;
+    padding: 10px;
+    font-size: 30px;
+    transition: 1s;
+}
+
+.btn-1:hover{
+    cursor: pointer;
+    background-color: #3b7bfbd4;
+    border-left: white solid 30px;
+    transition: 0.5s;
+}
+
+.donate-link{
+    all: unset;
+}
+
+.wamu{
+    width: 100px;
+    margin-top: -50px;
+    margin-left: 47%;
+}
+
+/* Main */
+.extra-detail{
+    display: block;
+    align-items: center;
+}
+
+.info{
+    display: flex;
+    align-items: flex-start;
+    font-size: 30px;
+    padding: 20px;
+    gap: 0.5em;
+}
+
+.info-text{
+    padding: 20px;
+    display: block;
+    color: white;
+    background-color: #3b7bfbd4;
+}
+
+.jpg{
+    width: 50%;
+}
+
+/* footer */
+
+footer{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    background-color: #423e3e;
+
+}
+
+.wamu-footer{
+    width: 200px;
+    padding-bottom: 30px;
+    
+}
+
+.contact-icon{
+    width: 30px;
+}
+
+.copyright{
+    text-align: center;
+    color: #ffffff7c;
+}
+
+.block{
+    color: white;
+}
+
+#pay-sim{
+    text-align: right;
+}
+
+.sim{
+    padding: 10px;
+    align-items: right;
+    
+}
+
+.sim-pic{
+    width: 70px;
+    transition: 0.6s;
+}
+.sim-pic:hover{
+    cursor: pointer;
+    scale: 1.04;
+    transition: 0.6s;
+}
+
+#footer-cont{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* donate-page */
+
+.supp-donate{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+    margin-top: 2em;
+
+}
+
+.head-donate{
+    text-align: center;
+    color: cadetblue;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+form label{
+    color: cadetblue;
+}
+
+input{
+    padding: 1em;
+    border: #FBB03B solid 2px;
+    border-radius: 5px;
+    width: 150%;
+}
+
+select{
+    padding: 1em;
+    border: #FBB03B solid 2px;
+    border-radius: 5px; 
+}
+
+textarea{
+    padding: 1em;
+    border: #FBB03B solid 2px;
+    border-radius: 5px; 
+}
+
+/* About-page */
+
+.complementary-info{
+    margin-top: 50px;
+    padding: 30px;
+}
+
+.complementary-info h1{
+    text-align: center;
+    color: cadetblue;
+}
+
+#info{
+    padding: 20px;
+}
+
+.complementary-info .about h2{
+    color: #FBB03B;
+}
+
+#pic-boy{
+    display: flex;
+    gap: 1em;
+    align-items: self-end;
+}
+
+.txt-necc{
+    background-color: cadetblue;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+}
+
+.pic-boy{
+    width: 50%;
+    border-radius: 5px;
+}
+
+@media (max-width: 720px) {
+
+    .toggle-button{
+        display: flex;
+
+    }
+
+    .nav-links{
+        display: none;
+        width: 100%;
+    }
+
+    .nav-bar{
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        display: flex;
+        /* position: fixed; */
+    }
+
+    .nav-links ul{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .nav-links li{
+        text-align: center;
+    }
+
+    .nav-links.active{
+        display: block;
+        background-color: #423e3eea;
+        transform: 1s;
+    }
+
+    .logo{
+        display: flex;
+    }
+
+    .wamu-logo{
+    width: 150px;
+    height: auto;
+    border-radius: 0px;
+    margin-top: 2px;
+}
+
+.pre-hero{
+    margin-top: 0;
+    background-image: url(images/support.jpg);
+    background-size: fill;
+    background-position: right;
+    padding: 50px;
+
+}
+
+.support-text{
+    font-size: 20px;
+}
+
+.btn-1{
+    margin-top: 1em;
+    color: white;
+    background-color: #FBB03B;
+    padding: 10px;
+    font-size: 30px;  
+}
+
+.wamu{
+    width: 100px;
+    margin-top: -20px;
+    margin-left: 37%;
+}
+/* main */
+
+.extra-detail{
+    padding: 0;
+    display: block;
+}
+
+.info{
+    display: block;
+    align-items: center;
+    font-size: 20px;
+}
+
+.info-text{
+    padding: 20px;
+}
+
+.jpg{
+    width: 100%;
+    height: auto;
+}
+
+
+
+/* footer */
+#footer-cont{
+    display: block;
+}
+
+#pay-sim{
+    text-align: left;
+}
+
+.sim{
+    padding: 10px;
+    align-items: right;
+    
+}
+
+.sim-pic{
+    width: 70px;
+    transition: 0.6s;
+}
+.sim-pic:hover{
+    cursor: pointer;
+    scale: 1.04;
+    transition: 0.6s;
+}
+
+
+}
+
+@media (max-width:900px) {
+    /* main */
+
+.extra-detail{
+    padding: 0;
+    display: block;
+}
+
+.info{
+    display: block;
+    align-items: center;
+    font-size: 30px;
+}
+
+.info-text{
+    padding: 20px;
+}
+
+.jpg{
+    width: 100%;
+    height: auto;
+}
+
+#pic-boy{
+    display: block;
+    gap: 1em;
+    align-items: flex-start;
+}
+
+.pic-boy{
+    width: 100%;
+}
+
+}
