@@ -108,29 +108,24 @@ nav{
     background-image: url(images/support.jpg);
     background-size: cover;
     background-position: right;
-    padding: 150px;
+    padding: 90px;
 
 }
 
 .pre-hero-text{
     display: flex;
-    background-color: rgba(0, 0, 0, 0.374);
-    padding: 30px;
+    padding: 10px;
     border-radius: 10px;
     align-items: left;
     transition: 0.5s;
 }
 
-.pre-hero-text:hover{
-    box-shadow: #32325d40 0px 6px 12px -2px, #0000004d 0px 3px 7px -3px;
-    scale: 1.02;
-    transition: 1s;
-    
-}
-
 .support-text{
-    color: white;
+    color: #ffffff;
     font-size: 40px;
+    padding: 20px;
+    font-weight: bold;
+    background-color: #00000044;
 }
 
 .btn-1{
@@ -322,6 +317,45 @@ textarea{
     border-radius: 5px;
 }
 
+.scam-free{
+    padding: 20px;
+}
+
+@media (max-width:900px) {
+    /* main */
+
+.extra-detail{
+    padding: 0;
+    display: block;
+}
+
+.info{
+    display: block;
+    align-items: center;
+    font-size: 30px;
+}
+
+.info-text{
+    padding: 20px;
+}
+
+.jpg{
+    width: 100%;
+    height: auto;
+}
+
+#pic-boy{
+    display: block;
+    gap: 1em;
+    align-items: flex-start;
+}
+
+.pic-boy{
+    width: 100%;
+}
+
+}
+
 @media (max-width: 720px) {
 
     .toggle-button{
@@ -365,7 +399,7 @@ textarea{
     width: 150px;
     height: auto;
     border-radius: 0px;
-    margin-top: 2px;
+    margin-top: 0.5em;
 }
 
 .pre-hero{
@@ -373,20 +407,32 @@ textarea{
     background-image: url(images/support.jpg);
     background-size: fill;
     background-position: right;
-    padding: 50px;
+    padding: 25px;
 
 }
 
+.pre-hero-text{
+    margin-top: 2.5em;
+    display: flex;
+    padding: 10px;
+    border-radius: 10px;
+    align-items: left;
+    transition: 0.5s;
+}
+
+
 .support-text{
-    font-size: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #00000044;
 }
 
 .btn-1{
-    margin-top: 1em;
+    margin-top: 0.1em;
     color: white;
     background-color: #FBB03B;
     padding: 10px;
-    font-size: 30px;  
+    font-size: 20px;  
 }
 
 .wamu{
@@ -398,7 +444,10 @@ textarea{
 
 .extra-detail{
     padding: 0;
-    display: block;
+    display: flex;
+    align-items: flex-start;
+    overflow-x: auto;
+    flex-wrap: nowrap;
 }
 
 .info{
@@ -408,12 +457,13 @@ textarea{
 }
 
 .info-text{
-    padding: 20px;
+    padding: 10px;
+    color: black;
+    background-color: unset;
 }
 
 .jpg{
-    width: 100%;
-    height: auto;
+    width: 300px;
 }
 
 
@@ -446,41 +496,6 @@ textarea{
 /* donate-page */
 
 input{
-    width: 100%;
-}
-
-}
-
-@media (max-width:900px) {
-    /* main */
-
-.extra-detail{
-    padding: 0;
-    display: block;
-}
-
-.info{
-    display: block;
-    align-items: center;
-    font-size: 30px;
-}
-
-.info-text{
-    padding: 20px;
-}
-
-.jpg{
-    width: 100%;
-    height: auto;
-}
-
-#pic-boy{
-    display: block;
-    gap: 1em;
-    align-items: flex-start;
-}
-
-.pic-boy{
     width: 100%;
 }
 
