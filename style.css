@@ -164,7 +164,7 @@ nav{
 
 .info{
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     font-size: 30px;
     padding: 20px;
     gap: 0.5em;
@@ -173,11 +173,15 @@ nav{
 .info-text{
     padding: 20px;
     display: block;
-    color: white;
-    background-color: #3b7bfbd4;
+    color: #000000;
+    /* background-color: #3b7bfbd4; */
 }
 
 .jpg{
+    width: 50%;
+}
+
+.jpg-1{
     width: 50%;
 }
 
@@ -378,6 +382,10 @@ textarea{
 .jpg{
     width: 100%;
     height: auto;
+}
+
+.jpg-1{
+    width: 200px;
 }
 
 #pic-boy{
