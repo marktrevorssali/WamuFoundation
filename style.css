@@ -338,7 +338,7 @@ textarea{
     padding: 20px;
 }
 
-.whatsapp_float {
+/* .whatsapp_float {
   position: fixed;
   bottom: 20px;
   right: 20px;
@@ -346,8 +346,8 @@ textarea{
 }
 
 .whatsapp_icon {
-  width: 60px;
-  height: 60px;
+  width: 30%;
+  height: 30%;
   border-radius: 50%;
   box-shadow: 2px 2px 10px rgba(0,0,0,0.3);
   animation: pulse 2s infinite;
@@ -371,7 +371,7 @@ textarea{
     transform: scale(1);
     box-shadow: 0 0 0 0 rgba(37, 211, 102, 0);
   }
-}
+} */
 
 @media (max-width:900px) {
     /* main */
