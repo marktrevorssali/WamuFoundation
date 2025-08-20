@@ -185,6 +185,18 @@ nav{
     width: 50%;
 }
 
+.tel{
+    all: unset;
+    transition: 0.5s;
+}
+
+.tel:hover{
+    cursor: pointer;
+    background-color: antiquewhite;
+    padding: 5px;
+    transition: 0.5s;
+}
+
 /* footer */
 
 footer{
