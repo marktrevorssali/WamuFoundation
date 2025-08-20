@@ -338,7 +338,7 @@ textarea{
     padding: 20px;
 }
 
-/* .whatsapp_float {
+.whatsapp_float {
   position: fixed;
   bottom: 20px;
   right: 20px;
@@ -371,7 +371,7 @@ textarea{
     transform: scale(1);
     box-shadow: 0 0 0 0 rgba(37, 211, 102, 0);
   }
-} */
+}
 
 @media (max-width:900px) {
     /* main */
