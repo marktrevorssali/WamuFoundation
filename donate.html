@@ -45,9 +45,12 @@
             </div>
         </nav>
 <body>
-    <div class="supp-donate">
+    <div class="supp-donate hidden">
         <h1 class="head-donate">Anything you're willing to give in is Highly appreciated</h1>
-        <a href="donatemoney.html" class="donate-link"><button class="btn-1">Donate an Amount</button></a><br><p class="head-donate">Or</p>
+        <a href="donatemoney.html" class="donate-link">
+            <button class="btn-1">Donate an Amount</button>
+        </a><br>
+        <p class="head-donate">Or</p>
 
         <!-- Form-for-material-donation -->
   <h2 class="head-donate">Material Donation Form</h2>
@@ -57,7 +60,9 @@
  <!-- FormSubmit options (hidden) -->
   <!-- turn off FormSubmit’s CAPTCHA widget -->
   <input type="hidden" name="_captcha" value="false">
+
   <!-- redirect to a thank-you page after submit -->
+
   <!-- <input type="hidden" name="_next"
          value="https://wamufoundation.org/thank-you.html"> -->
   <!-- email subject line -->
@@ -66,7 +71,6 @@
 
   <!-- honeypot field (bots fill it, humans won’t) -->
   <input type="text" name="website" style="display:none">
-
 
     <label for="name">Full Name</label>
     <input type="text" id="name" name="name" required>
